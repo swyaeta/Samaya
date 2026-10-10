@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mainpage</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+<h1>Shamaya</h1>
+<p>Lock in and grind!!!</p>
+
+<a href="readme.html">
+<div class="goback">Read Me</div>
+</a>
+
+<div class="musicbox">
+    <button type="button" id="soft">Soft</button>
+    <button type="button" id="rock">Rock</button>
+    <button type="button" id="calm">Calm</button>
+    <button type="button" id="minimal">Minimal</button>
+    <audio id="musicplayer"></audio>
+</div>
+
+<div class="themebox">
+    <button onclick="sweet()">Sweet</button>
+    <button onclick="dark()">Dark</button>
+    <button onclick="cozy()">Cozy</button>
+</div>    
+
+<div class="timer"></div>
+<div class="maintimer">25:00</div>
+
+<div class="options">
+<button onclick="start()">Play</button>
+<button onclick ="pause()">Pause</button>
+<button onclick ="replay()">Replay</button>
+</div>
+
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>

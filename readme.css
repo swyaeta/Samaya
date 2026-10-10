@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(255, 255, 240);
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    color:rgb(227, 188, 132);
+    font-size:40px;
+    margin-top:50px;
+}
+h2{
+    color:rgb(122, 94, 83);
+    margin-top:25px;
+    margin-top:130px;
+    font-size: 25px;
+}
+p{
+    font-size:17px
+}

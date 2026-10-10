@@ -1,0 +1,140 @@
+
+body{
+    background-color:var(--bg);
+    color:var(--txt);
+    text-align: center;
+    font-family:cursive;
+}
+
+:root{
+    --bg:rgb(243, 250, 250);
+    --head:rgb(22, 25, 119);
+    --para:rgb(111, 138, 197);
+    --bgtimer:rgb(169, 202, 244);
+    --mbox:rgb(169, 202, 244);
+    --themebox:rgb(169, 202, 244);
+    --txt:rgb(14, 46, 84);
+}
+
+h1{
+    color:var(--head);
+    margin-top:180px;
+    font-size:65px;
+}
+
+p{
+    color:var(--para);
+    font-size:20px;
+    margin-top:-40px
+}
+
+.musicbox{
+    width:335px;
+    height:50px;
+    background-color:var(--mbox);
+    position:absolute;
+    top:220%;
+    left:38%;
+    border-radius: 80px;
+    border: 2px solid  #220404
+}
+
+.musicbox button {
+    border: 2px solid  #220404;
+    border-radius: 55px;
+    background-color: #fcfffe;
+    color: #1e0f0f;
+    font-family: cursive;
+    font-size: 13px;
+    padding: 8px 14px;
+    margin: 7px;
+    cursor: pointer
+}
+
+.timer{
+    width:600px;
+    min-height:600px;
+    border-radius:390px;
+    background-color:var(--bgtimer);
+    position: absolute;
+    top:90%;
+    left:24%;
+    font-size: 100px
+}
+
+.maintimer{
+    background-color:rgb(255, 255, 239);
+    width:530px;
+    min-height:530px;
+    border-radius: 390px;
+    position:absolute;
+    top:98%;
+    left:27%;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    width:220px;
+    height:50px;
+    background-color:rgb(255, 246, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:26px;
+    position:absolute;
+    top:170%;
+    left:42%
+}
+
+.options button{
+    border: 2px solid  #220404;
+    border-radius: 55px;
+    background-color: #fcfffe;
+    color: #1e0f0f;
+    font-family: cursive;
+    font-size: 14px;
+    padding: 8px 14px;
+    margin: 4px;
+    cursor: pointer
+}
+
+.themebox{
+    width:200px;
+    height:57px;
+    background-color: var(--themebox);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    border:2px solid black;
+    position: absolute;
+    top:10%;
+    left:77%
+}
+
+.themebox button{
+    margin:7px;
+    font-size: 12px;
+    font-family: cursive;
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.goback{
+    width:100px;
+    height:50px;
+    background-color: rgb(255, 246, 233);
+    border-radius: 30px;
+    font-size:20px;
+    position: absolute;
+    top:15%;
+    left:3%;
+    font-family: cursive;
+    color:rgb(44, 36, 27);
+    border:2px solid black;
+}
+
