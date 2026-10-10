@@ -30,5 +30,13 @@
 #### It has 25 min work timer then it has 5 min break timer
 #### There you can also listen to music of your choice
 
+## How to run locally :)
+
+#### Wanna try Shamaya on your own computer? Here's how!!
+#### Clone the repo.
+#### Open the Shamaya folder in VS Code.
+#### Open index.html in your browser or use the Live Server extension in VS Code.
+
+
 
 
